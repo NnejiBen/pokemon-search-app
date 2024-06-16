@@ -19,62 +19,65 @@
     <main>
         <!-- Heading -->
         <h1 class="heading">Pokémon Search App</h1>
-        <!-- Search container -->
-        <form>
-            <label for="">Search for Pokémon Name or ID:</label>
+        <!-- Project wrapper -->
+        <div class="project-wrapper">
+            <!-- Search container -->
+            <form>
+                <label for="">Search for Pokémon Name or ID:</label>
+                <div class="input-and-btn">
+                    <input type="text" id="search-input">
+                    <button id="search-button">Search</button>
+                </div>
+            </form>
+            <!-- Top container - Name, image -->
             <div>
-                <input type="text" id="search-input">
-                <button id="search-button">Search</button>
+                <!-- Name, ID -->
+                <div class="name-and-id">
+                    <p id="pokemon-name">POKEMON_NAME</p>
+                    <p id="pokemon-id"><span>#</span>0000</p>
+                </div>
+                <!-- Weight, height -->
+                <div class="weight-and-height">
+                    <p id="weight"><span>Weight: </span>000</p>
+                    <p id="height"><span>Height: </span>000</p>
+                </div>
+                <!-- Image -->
+                <img src="" alt="Pokemon image">
+                <!-- Types -->
+                <div id="types"></div>
             </div>
-        </form>
-        <!-- Top container - Name, image -->
-        <div>
-            <!-- Name, ID -->
-            <div>
-                <p id="pokemon-name">POKEMON_NAME</p>
-                <p id="pokemon-id"><span>#</span>POKEMON_ID</p>
-            </div>
-            <!-- Weight, height -->
-             <div>
-                <p id="weight"><span>Weight: </span>000</p>
-                <p id="height"><span>Height: </span>000</p>
-             </div>
-            <!-- Image -->
-            <img src="" alt="Pokemon image">
-            <!-- Types -->
-            <div id="types"></div>
+            <!-- Bottom container - Statistics -->
+            <table>
+                <tr>
+                    <th>Base</th>
+                    <th>Stats</th>
+                </tr>
+                <tr>
+                    <td>HP:</td>
+                    <td id="hp">000</td>
+                </tr>
+                <tr>
+                    <td>Attack:</td>
+                    <td id="attack">000</td>
+                </tr>
+                <tr>
+                    <td>Defence:</td>
+                    <td id="defense">000</td>
+                </tr>
+                <tr>
+                    <td>Sp. Attack:</td>
+                    <td id="special-attack">000</td>
+                </tr>
+                <tr>
+                    <td>Sp. Defence:</td>
+                    <td id="special-defense">000</td>
+                </tr>
+                <tr>
+                    <td>Speed:</td>
+                    <td id="speed">000</td>
+                </tr>
+            </table>
         </div>
-        <!-- Bottom container - Statistics -->
-        <table>
-            <tr>
-                <th>Base</th>
-                <th>Stats</th>
-            </tr>
-            <tr>
-                <td>HP:</td>
-                <td id="hp">000</td>
-            </tr>
-            <tr>
-                <td>Attack:</td>
-                <td id="attack">000</td>
-            </tr>
-            <tr>
-                <td>Defence:</td>
-                <td id="defense">000</td>
-            </tr>
-            <tr>
-                <td>Sp. Attack:</td>
-                <td id="special-attack">000</td>
-            </tr>
-            <tr>
-                <td>Sp. Defence:</td>
-                <td id="special-defense">000</td>
-            </tr>
-            <tr>
-                <td>Speed:</td>
-                <td id="speed">000</td>
-            </tr>
-        </table>
     </main>
     <footer>
         <!-- Attribution -->
