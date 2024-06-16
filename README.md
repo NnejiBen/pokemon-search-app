@@ -6,7 +6,7 @@ FreeCodeCamp's JavaScript course project to build a Pokémon search app.
 This is one of the required projects (the fifth) to earn my certification. I built this project using the User Stories provided by freeCodeCamp.
 
 ## Link to live site:
-
+https://nnejiben.github.io/pokemon-search-app/
 
 ## Other Information:
 
