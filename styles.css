@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light: #ffffff;
+    --dark: #000000;
+    --dark-blue: #0a0a23;
+    --purple: #7f21ab;
+    --light-f5f6f7: #f5f6f7;
+    --grey-dfdfe2: #DFDFE2;
+
+    --blue-198EEE: #198EEE;
+    --blue-99c9ff: #99c9ff;
+    --gray-dfdfe2: #dfdfe2;
+    --grey-3B3B4F: #3B3B4F;
+    --gold: #4D3800;
+    --orange: #bb7712;
+    --yellow-feac32: #feac32;
+    --yellow-ffb73b: #FFB73B;
+}
+
+body {
+    background-color: var(--dark-blue);
+    padding: 1rem;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.coder-name {
+    color: var(--grey-dfdfe2);
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo {
+    width: 32px;
+    height: auto;
+    display: flex;
+}
+
+.logo-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+main {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    color: var(--grey-dfdfe2);
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+
+
+footer {
+    padding: 1rem;
+}
+
+.attribution {
+    width: 100%;
+    text-align: center;
+    color: var(--grey-dfdfe2);
+}
+
+.attribution a {
+    color: var(--grey-dfdfe2);
+}
+
+.attribution a:hover {
+    color: var(--blue);
+}
