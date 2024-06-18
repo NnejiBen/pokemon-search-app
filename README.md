@@ -19,21 +19,3 @@ Course link: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-s
 Project completion date: June , 2024
 
 Helpful Resources:
-
-## Pseudo-code
-
-1. Set up Event Listener:
-Listen for a click event on the search button.
-Prevent the default form submission behavior.
-
-2. Fetch Pokémon Data:
-Capture the value from the search input.
-Make a fetch request to the PokéAPI Proxy using the input value.
-
-3. Handle API Response:
-If the Pokémon is found, display its data (name, ID, weight, height, types, stats, and image).
-If the Pokémon is not found, show an alert.
-
-4. Update DOM Elements:
-Update the respective DOM elements with the Pokémon data.
-Clear previous types and stats before displaying new data.
